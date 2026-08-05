@@ -19,15 +19,15 @@ local PlayerGui = Player:WaitForChild("PlayerGui")
 
 local OptionNames = {
 	"Banana Hub Versao Free",
-	"Função 02",
-	"Função 03",
-	"Função 04",
-	"Função 05",
-	"Função 06",
-	"Função 07",
-	"Função 08",
-	"Função 09",
-	"Função 10"
+	"Quantum Hub",
+	"Gravity Hub",
+	"Vector Hub",
+	"Hoho Hub",
+	"Cooka hub",
+	"aimbot centudox",
+	"farm bounty",
+	"Neva Hub",
+	"Black v kaitun"
 }
 
 -- ID DA LOGO
@@ -61,56 +61,169 @@ end
 
 local function Codigo02()
 	print("Função 02 executada")
-
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 02 AQUI
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
 end
 
 local function Codigo03()
 	print("Função 03 executada")
-
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 03 AQUI
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
 end
 
 local function Codigo04()
 	print("Função 04 executada")
-
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 04 AQUI
+    loadstring(game:HttpGet("https://vectorhub.space"))()/
 end
 
 local function Codigo05()
 	print("Função 05 executada")
-
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 05 AQUI
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
 end
 
 local function Codigo06()
 	print("Função 06 executada")
-
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 06 AQUI
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
 end
 
 local function Codigo07()
 	print("Função 07 executada")
-
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 07 AQUI
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JustParadozCode/CentuDox-Hub/refs/heads/main/CentuDox-V3.xyz"))()
 end
 
 local function Codigo08()
 	print("Função 08 executada")
-
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 08 AQUI
+	getgenv().Config = {
+    ["Setting"] = {
+        ["Team"] = "Pirates", -- Pirates/Marines
+        ["FPS Boost"] = false,
+        ["RemoveNotification"] = false,
+        ["Time Skip Player"] = 120 -- Second
+    },
+    ["Run"] = {
+        ["RunIfLowHealth"] = true,
+        ["HealtRun"] = 30, -- %
+        ["HealthBack"] = 50, -- %
+        ["Teleport Y"] = 400
+    },
+    ["Skip"] = {
+        ["Skip V4"] = false,
+        ["Skip Fruits"] = {"Portal-Portal", "Buddha-Buddha"}
+    },
+    ["Bounty"] = {
+        ["Aimbot Camera"] = true,
+        ["ESP Player"] = true
+    },
+    ["Weapon"] = {
+        ["Melee"] = {
+            ["Use Melee"] = true,
+            ["Z"] = {Enable = true, Hold = 0.1},
+            ["X"] = {Enable = true, Hold = 0.1},
+            ["C"] = {Enable = true, Hold = 0.1}
+        },
+        ["Fruits"] = {
+            ["Use Fruits"] = true,
+            ["Z"] = {Enable = true, Hold = 0.1},
+            ["X"] = {Enable = true, Hold = 0.1},
+            ["C"] = {Enable = true, Hold = 0.1},
+            ["V"] = {Enable = false, Hold = 0.1},
+            ["F"] = {Enable = false, Hold = 0.1}
+        },
+        ["Sword"] = {
+            ["Use Sword"] = true,
+            ["Z"] = {Enable = true, Hold = 0.1},
+            ["X"] = {Enable = false, Hold = 0.1}
+        },
+        ["Gun"] = {
+            ["Use Gun"] = false,
+            ["Z"] = {Enable = false, Hold = 0.1},
+            ["X"] = {Enable = false, Hold = 0.1}
+        },
+    },
+    ["Misc"] = {
+        ["Active Race V3"] = true,
+        ["Active Race V4"] = true,
+        ["Random And Store Fruits"] = false
+    },
+    ["Webhook"] = {      
+        ["UrlWebhook"] = "",
+        ["Enable"] = false
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/...../refs/heads/main/FarmBounty.lua"))()
 end
 
 local function Codigo09()
 	print("Função 09 executada")
-
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 09 AQUI
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))()
 end
 
 local function Codigo10()
 	print("Função 10 executada")
+	getgenv().Config = {
+    ["Hide UI"] = false,
+    ["White Screen"] = false,
+    ["Black Screen"] = false,
+    ["Start Farm"] = true,
+	
+    ["Exit When Full Item"] = true,  
+    
+    ["Settings"] = {
+        ["FPS Booster"] = true,
+    },
 
-	-- COLOQUE O CÓDIGO DA FUNÇÃO 10 AQUI
+    ["Auto Chat"] = {
+        ["Enabled"] = false,
+        ["Content"] = {"", "", ""},
+        ["Time Chat"] = 9999 
+    },
+
+    ["HOP"] = {
+        ["Enabled"] = true,
+        ["time hop"] = 3000 
+    },
+
+    ["Melee"] = {
+        ["All Melee V1"] = true,
+        ["Super Huamn"] = true,
+        ["Dragon Talon"] = true,
+        ["Sharkman Karate"] = true,
+        ["Elechic Claw"] = true,
+        ["GodHuman"] = true,
+    },
+	
+    ["Sword"] = {
+        ["All Sword"] = true,
+        ["Saber"] = true,
+        ["Pole"] = true,
+        ["Rengoku"] = true,
+        ["Midnight Blade"] = true,
+        ["Soul Cane"] = true,
+        ["Gravity Cane"] = true,
+        ["Dragon Trident"] = true,
+        ["Legendary Sword"] = true,
+        ["True Triple Katana"] = true,
+        ["Twin Hooks"] = true,
+        ["Canvander"] = true,
+        ["Buddy Sword"] = true,
+        ["Hallow Scythe"] = true,
+        ["Yama"] = true,
+        ["Tushita"] = true,
+        ["Cursed Dual Katana"] = true,
+    },
+
+    ["Gun"] = {
+        ["All Gun"] = true,
+        ["Acidum Rifle"] = true,
+        ["Kabucha"] = true,
+        ["Serpent Bow"] = true,
+        ["Skull Guitar"] = true,
+    },
+
+    ["Race"] = {
+        ["Auto V2"] = true,
+        ["Auto V3"] = true,
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nvb201112/Black-V-Hub/refs/heads/main/KaitunBF.luau"))()
 end
 
 local Functions = {
